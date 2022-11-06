@@ -1,11 +1,12 @@
+import React from "react";
 import "./App.css";
-
+import ExpenseData from "./components/ExpenseData";
 function App() {
-	return (
-		<div className="App">
-			<h1>Task List</h1>
-		</div>
-	);
+  return (
+    <div className="App">
+      <ExpenseData />
+    </div>
+  );
 }
 
 export default App;
